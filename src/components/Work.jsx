@@ -4,9 +4,9 @@ import "./Work.css";
 
 /* IMAGE IMPORTS */
 
-import treeImg from "../assets/Work-image-temp/Tree-Planation.png";
-import childrenImg from "../assets/Work-image-temp/children.png";
-import personImg from "../assets/Work-image-temp/person.png";
+import treeImg from "../assets/Work-Image-Temp/Tree-Planation.png";
+import childrenImg from "../assets/Work-Image-Temp/children.png";
+import personImg from "../assets/Work-Image-Temp/person.png";
 
 const workData = [
   {
