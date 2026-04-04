@@ -1,0 +1,98 @@
+/* Banner */
+
+.zonal-banner {
+  height: 250px;
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zonal-banner h1 {
+  color: white;
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+
+/* Container */
+
+.zonal-container {
+  padding: 60px 80px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 40px;
+
+  background: #f5f5f5;
+}
+
+/* Cards */
+
+.zonal-card {
+  padding: 30px;
+
+  border-radius: 30px;
+
+  color: white;
+
+  font-size: 16px;
+
+  line-height: 1.6;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.15);
+
+  transition: 0.3s;
+}
+
+/* GREEN version */
+
+.zonal-card {
+  background: linear-gradient(
+    135deg,
+    #2e7d32,
+    #4caf50
+  );
+}
+
+/* If you want RED instead,
+   replace above with:
+
+.zonal-card {
+  background: linear-gradient(
+    135deg,
+    #b71c1c,
+    #e53935
+  );
+}
+
+*/
+
+.zonal-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Title */
+
+.zonal-card h3 {
+  margin-bottom: 15px;
+
+  font-size: 18px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .zonal-container {
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+
+}

@@ -1,0 +1,45 @@
+.action-bar {
+  background: white;
+  padding: 10px 0;
+}
+
+
+.action-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding-right: 30px; 
+}
+.donate-btn {
+  background: #7ac943;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.donate-btn:hover {
+  background: #6bb53a;
+}
+
+
+.join-btn {
+  background: transparent;
+  color: #7ac943;
+  border: 2px solid #7ac943;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  background: #7ac943;
+  color: white;
+}

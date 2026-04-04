@@ -1,0 +1,94 @@
+.webMail-container {
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webMail-box {
+  width: 420px;
+  text-align: center;
+}
+
+/* Title */
+
+.webMail-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+  /* COLOR — choose one */
+
+  color: #e60023;   /* RED */
+
+  /* color: #2e7d32;  GREEN */
+}
+
+/* Form */
+
+.webMail-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.webMail-form label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.webMail-form input {
+  padding: 12px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.webMail-form input:focus {
+  outline: none;
+  border-color: #0077b6;
+}
+
+/* Button */
+
+.webMail-form button {
+  padding: 12px;
+  background-color: #2a8fbd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.webMail-form button:hover {
+  background-color: #1f6f94;
+}
+
+/* Languages */
+
+.languages {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #333;
+}
+
+.languages span {
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.copyright {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #555;
+}
+
+.privacy {
+  color: #0077b6;
+  cursor: pointer;
+}

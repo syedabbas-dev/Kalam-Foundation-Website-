@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.navbar {
+  width: 100%;
+  height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color:#000000;
+  color: white;
+
+  padding: 0 30px;
+
+  box-sizing: border-box;
+}
+
+
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+
+}
+/* 
+
+
+.navbar-logo {
+ width: auto;
+
+  object-fit: contain;
+  display: block;
+  height: 90px;
+} */
+
+.logo-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+.saffron {
+  color: #FF9933;
+}
+
+
+.white {
+  color: #FFFFFF;
+  background-color: black; 
+  padding: 0 2px;
+}
+
+
+.green {
+  color: #138808;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 25px;
+
+  font-size: 14px;
+  align-items: center;
+
+  white-space: nowrap;
+}
+
+.navbar-center span {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-center span:hover {
+  color: #00bcd4;
+}
+
+
+
+.navbar-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  font-size: 16px;
+}
+
+.navbar-right svg {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-right svg:hover {
+  color: #00bcd4;
+}
+
+.navbar-right a {
+  color: inherit;        
+  text-decoration: none; 
+  display: inline-flex;  
+}
+
+.navbar-center a {
+  color: white;
+  text-decoration: none; /* underline remove */
+}
+
+.navbar-center a:hover {
+  color: #ddd; /* optional hover color */
+}
