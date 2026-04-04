@@ -4,9 +4,9 @@ import "./Work.css";
 
 /* IMAGE IMPORTS */
 
-import treeImg from "../assets/Work image/Tree-Planation.png";
-import childrenImg from "../assets/Work image/children.png";
-import personImg from "../assets/Work image/person.png";
+import treeImg from "../assets/Work-image/Tree-Planation.png";
+import childrenImg from "../assets/Work-image/children.png";
+import personImg from "../assets/Work-image/person.png";
 
 const workData = [
   {
@@ -47,7 +47,7 @@ const Work = () => {
   // FINAL navigation function
   const handleDonateClick = (e) => {
     e.stopPropagation();
-    navigate("/Donateform"); // ye Donateform.jsx route ko hit karega
+    navigate("/DonateForm");
   };
 
   return (
