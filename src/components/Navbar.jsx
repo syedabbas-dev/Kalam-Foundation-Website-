@@ -22,8 +22,8 @@ function Navbar() {
   </h2>
    </div>
       <div className="navbar-center">
-        <a href="/webmail">WebMail</a>
-        <a href="/headoffice">Head Office</a>
+        <a href="/webMail">WebMail</a>
+        <a href="/headOffice">Head Office</a>
         <a href="/Zonal">Zonal Offices</a>
         <span>#Hridaan Festival</span>
         <span>Meri Panchayat</span>
