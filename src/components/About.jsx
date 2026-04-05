@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import goalsImage from "../assets/goals.png";
-import kalamImage from "../assets/About-kalam.png";
+import kalamImage from "../assets/About-Kalam.png";
 import { useNavigate } from "react-router-dom";
 
 const About = () => {
