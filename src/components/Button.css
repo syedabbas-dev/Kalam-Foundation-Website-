@@ -43,3 +43,63 @@
   background: #7ac943;
   color: white;
 }
+
+
+
+@media (max-width: 1200px) {
+
+  .action-container {
+    padding-right: 20px;
+    gap: 12px;
+  }
+
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .action-container {
+    justify-content: center;
+    padding-right: 0;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .action-bar {
+    padding: 12px 0;
+  }
+
+  .action-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .donate-btn,
+  .join-btn {
+    width: 220px;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 15px;
+  }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+  .donate-btn,
+  .join-btn {
+    width: 90%;
+    max-width: 300px;
+  }
+
+}

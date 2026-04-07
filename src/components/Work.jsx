@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Work.css";
 
-/* IMAGE IMPORTS */
+/
 
 import treeImg from "../assets/Work-Image/Tree-Planation.png";
 import childrenImg from "../assets/Work-Image/children.png";
@@ -44,7 +44,6 @@ const Work = () => {
     setActiveCard(activeCard === id ? null : id);
   };
 
-  // FINAL navigation function
   const handleDonateClick = (e) => {
     e.stopPropagation();
     navigate("/DonateForm");
@@ -67,7 +66,7 @@ const Work = () => {
               className="work-image"
             />
 
-            {/* Overlay */}
+           
             <div
               className={`overlay ${
                 activeCard === item.id ? "active" : ""
@@ -90,7 +89,7 @@ const Work = () => {
               </div>
             </div>
 
-            {/* Card Content */}
+            
             <div className="card-content">
               <h3>{item.title}</h3>
 

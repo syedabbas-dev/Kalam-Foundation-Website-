@@ -14,7 +14,7 @@ import youthImg from "../assets/ABOUT image/youth.png";
 const AboutUs = () => {
   return (
     <>
-      {/* HERO SECTION */}
+      
 
       <section className="about-hero">
 
@@ -52,7 +52,7 @@ const AboutUs = () => {
 
       </section>
 
-      {/* MISSION / VISION */}
+   
 
       <section className="mission-vision">
 
@@ -120,7 +120,7 @@ const AboutUs = () => {
 
       </section>
 
-      {/* DR APJ ABDUL KALAM SECTION */}
+      
 
       <section className="kalam-section">
 
@@ -151,7 +151,7 @@ const AboutUs = () => {
 
         </div>
 
-        {/* RIGHT */}
+     
 
         <div className="kalam-right">
 

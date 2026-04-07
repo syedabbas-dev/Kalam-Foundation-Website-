@@ -96,3 +96,137 @@
 .active-dot {
   opacity: 1;
 }
+
+
+
+@media (max-width: 1200px) {
+
+  .voices-heading {
+    font-size: 34px;
+  }
+
+  .quote {
+    font-size: 18px;
+  }
+
+  .images-row {
+    gap: 24px;
+  }
+
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .voices-section {
+    padding: 60px 20px;
+  }
+
+  .person-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .person-img.active {
+    width: 130px;
+    height: 130px;
+  }
+
+  .quote-box {
+    max-width: 700px;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .voices-section {
+    padding: 50px 16px;
+  }
+
+  .voices-heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .carousel {
+    gap: 10px;
+  }
+
+  .images-row {
+    gap: 16px;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+  .images-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .images-row {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .person-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .person-img.active {
+    width: 110px;
+    height: 110px;
+  }
+
+  .arrow {
+    font-size: 26px;
+  }
+
+  .quote {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .role {
+    font-size: 13px;
+  }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+  .voices-heading {
+    font-size: 24px;
+  }
+
+  .person-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .person-img.active {
+    width: 95px;
+    height: 95px;
+  }
+
+  .quote {
+    font-size: 15px;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+  }
+
+}

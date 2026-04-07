@@ -34,7 +34,7 @@
   top: 100%;
   left: 0;
   width: 100%;
-  height: 15px;   /* gap cover karega */
+  height: 15px;  
 }
 
 
@@ -105,7 +105,7 @@
   background: #e2e8f0;
 }
 
-/* SHOW DROPDOWN */
+
 
 .dropdown:hover .dropdown-menu {
   opacity: 1;

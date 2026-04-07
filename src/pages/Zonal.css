@@ -1,5 +1,3 @@
-/* Banner */
-
 .zonal-banner {
   height: 250px;
 
@@ -17,7 +15,7 @@
   letter-spacing: 3px;
 }
 
-/* Container */
+
 
 .zonal-container {
   padding: 60px 80px;
@@ -32,7 +30,7 @@
   background: #f5f5f5;
 }
 
-/* Cards */
+
 
 .zonal-card {
   padding: 30px;
@@ -51,7 +49,7 @@
   transition: 0.3s;
 }
 
-/* GREEN version */
+
 
 .zonal-card {
   background: linear-gradient(
@@ -61,24 +59,14 @@
   );
 }
 
-/* If you want RED instead,
-   replace above with:
 
-.zonal-card {
-  background: linear-gradient(
-    135deg,
-    #b71c1c,
-    #e53935
-  );
-}
 
-*/
 
 .zonal-card:hover {
   transform: translateY(-6px);
 }
 
-/* Title */
+
 
 .zonal-card h3 {
   margin-bottom: 15px;
@@ -86,13 +74,107 @@
   font-size: 18px;
 }
 
-/* Responsive */
+
 
 @media (max-width: 768px) {
 
   .zonal-container {
     grid-template-columns: 1fr;
     padding: 40px;
+  }
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+  .zonal-container {
+    padding: 50px 40px;
+    gap: 30px;
+  }
+
+  .zonal-card {
+    padding: 26px;
+  }
+
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .zonal-container {
+    grid-template-columns: 1fr;
+    padding: 40px 30px;
+    gap: 25px;
+  }
+
+  .zonal-banner {
+    height: 220px;
+  }
+
+  .zonal-banner h1 {
+    font-size: 30px;
+  }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .zonal-banner {
+    height: 200px;
+  }
+
+  .zonal-banner h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0 12px;
+  }
+
+  .zonal-container {
+    padding: 30px 18px;
+    gap: 20px;
+  }
+
+  .zonal-card {
+    padding: 22px;
+    border-radius: 22px;
+    font-size: 15px;
+  }
+
+  .zonal-card h3 {
+    font-size: 16px;
+  }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+  .zonal-banner {
+    height: 170px;
+  }
+
+  .zonal-banner h1 {
+    font-size: 20px;
+  }
+
+  .zonal-container {
+    padding: 24px 14px;
+  }
+
+  .zonal-card {
+    padding: 18px;
+    border-radius: 18px;
+    font-size: 14px;
   }
 
 }

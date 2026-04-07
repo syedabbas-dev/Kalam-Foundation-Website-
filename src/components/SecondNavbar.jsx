@@ -1,11 +1,25 @@
 import "./SecondNavbar.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function SecondNavbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="secondary-navbar">
-      <div className="menu">
+      
+     
+      <div className="hamburger" onClick={toggleMenu}>
+        ☰
+      </div>
 
+      {/* Menu */}
+      <div className={`menu ${menuOpen ? "active" : ""}`}>
+        
         <div className="dropdown">
           <span>About Us ▾</span>
           <div className="dropdown-menu">

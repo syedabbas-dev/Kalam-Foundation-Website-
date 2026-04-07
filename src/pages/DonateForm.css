@@ -177,3 +177,143 @@ textarea {
 .pay-btn:hover {
   opacity: 0.9;
 }
+
+
+/* ================= LARGE TABLET ================= */
+
+@media (max-width: 1200px) {
+
+  .donate-container {
+    padding: 35px 40px;
+  }
+
+  .main-title {
+    font-size: 30px;
+  }
+
+  .donate-right {
+    padding: 30px;
+  }
+
+}
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 992px) {
+
+  .donate-container {
+    flex-direction: column;
+    padding: 30px 30px;
+  }
+
+  .donate-left,
+  .donate-right {
+    width: 100%;
+  }
+
+  .donate-left {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .donate-right {
+    max-width: 600px;
+    margin: auto;
+  }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .donate-container {
+    padding: 25px 16px;
+  }
+
+  .foundation-title {
+    font-size: 18px;
+  }
+
+  .main-title {
+    font-size: 24px;
+  }
+
+  .donate-left p,
+  .donate-left li {
+    font-size: 14px;
+  }
+
+  .share-icons {
+    justify-content: flex-start;
+  }
+
+  .icon {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .razor-logo {
+    width: 130px;
+  }
+
+  .donate-right {
+    padding: 22px;
+  }
+
+  input,
+  select,
+  textarea {
+    padding: 9px;
+    font-size: 14px;
+  }
+
+  .payment-footer {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+
+  .upi-logo {
+    width: 120px;
+    margin: auto;
+  }
+
+  .pay-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+
+  .main-title {
+    font-size: 20px;
+  }
+
+  .foundation-title {
+    font-size: 16px;
+  }
+
+  .donate-container {
+    padding: 20px 12px;
+  }
+
+  .phone-box span {
+    padding: 9px;
+    font-size: 13px;
+  }
+
+  .pay-btn {
+    font-size: 15px;
+  }
+
+}

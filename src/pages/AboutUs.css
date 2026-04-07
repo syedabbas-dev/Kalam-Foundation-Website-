@@ -23,7 +23,7 @@
   z-index: 1;
 }
 
-/* Text */
+
 
 .hero-content {
   position: absolute;
@@ -50,7 +50,7 @@
   letter-spacing: 3px;
   margin-bottom: 15px;
 
-  color: red; /* heading red as in screenshot */
+  color: red;
 }
 
 .hero-content p {
@@ -181,7 +181,7 @@
   background: #ffffff;
 }
 
-/* LEFT */
+
 
 .kalam-left {
   position: relative;
@@ -233,7 +233,7 @@
   font-weight: 600;
 }
 
-/* RIGHT SIDE */
+
 
 .kalam-right {
   display: grid;
@@ -275,6 +275,154 @@
   .kalam-right {
     padding: 40px 20px;
     gap: 40px;
+  }
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+  .about-hero {
+    height: 340px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .mv-container {
+    gap: 40px;
+  }
+
+  .kalam-right {
+    padding: 50px 40px;
+    gap: 40px;
+  }
+
+}
+
+
+
+@media (max-width: 992px) {
+
+  .about-hero {
+    height: 320px;
+  }
+
+  .mv-container {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .kalam-section {
+    grid-template-columns: 1fr;
+  }
+
+  .kalam-right {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px 30px;
+  }
+
+  .kalam-box {
+    width: 85%;
+    padding: 24px;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .about-hero {
+    height: 280px;
+  }
+
+  .hero-content {
+    max-width: 95%;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .mission-vision {
+    padding: 40px 16px;
+  }
+
+  .mv-column h2 {
+    font-size: 22px;
+  }
+
+  .mv-column li {
+    font-size: 15px;
+  }
+
+  .kalam-right {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 35px 20px;
+    gap: 30px;
+  }
+
+  .kalam-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .kalam-item p {
+    font-size: 14px;
+  }
+
+  .kalam-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .kalam-box h2 {
+    font-size: 22px;
+  }
+
+  .kalam-box p {
+    font-size: 14px;
+  }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+  .about-hero {
+    height: 250px;
+  }
+
+  .hero-content h1 {
+    font-size: 20px;
+  }
+
+  .hero-content p {
+    font-size: 13px;
+  }
+
+  .kalam-right {
+    grid-template-columns: 1fr;
+  }
+
+  .kalam-box {
+    width: 95%;
+    padding: 18px;
   }
 
 }
